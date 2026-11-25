@@ -390,3 +390,39 @@ footer { background: oklch(0.155 0.006 264); }
   .floating-whatsapp, .modal-box { animation: none !important; transition: none !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+
+/* Correção de proporção: manter as fotografias na dimensão natural */
+.about-photo {
+  height: auto !important;
+  aspect-ratio: auto !important;
+  object-fit: contain;
+}
+
+.gallery-button img {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  aspect-ratio: auto !important;
+  object-fit: contain;
+}
+
+/* Não forçar um corte especial na primeira foto em telas pequenas */
+@media (max-width: 767px) {
+  .gallery-grid .gallery-item:first-child img {
+    aspect-ratio: auto !important;
+  }
+}
+
+.gallery-item:nth-child(3) .gallery-button {
+  aspect-ratio: 3 / 4;
+}
+
+.gallery-item:nth-child(3) .gallery-button img {
+  width: 100%;
+  height: 100% !important;
+  aspect-ratio: 3 / 4 !important;
+  object-fit: cover !important;
+  object-position: center;
+  transform: scale(1.08);
+}
