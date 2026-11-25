@@ -13,8 +13,8 @@
 
   * { border-color: var(--border); }
   html { scroll-behavior: smooth; scroll-padding-top: 105px; }
-  body { margin: 0; background: var(--background); color: var(--foreground); font-family: 'Manrope', sans-serif; letter-spacing: 0; }
-  h1,h2,h3 { font-family: 'Space Grotesk', sans-serif; letter-spacing: 0; }
+  body { margin: 0; background: var(--background); color: var(--foreground); font-family: 'DM Sans', sans-serif; letter-spacing: 0; }
+  h1,h2,h3 { font-family: 'Google Sans', sans-serif; letter-spacing: 0; }
   ::selection { background: var(--primary); color: var(--foreground); }
   a,button { -webkit-tap-highlight-color: transparent; }
   a:focus-visible { outline: 2px solid var(--primary); outline-offset: 5px; }

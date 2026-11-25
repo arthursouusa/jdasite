@@ -1,45 +1,743 @@
+
 <!DOCTYPE html>
-<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JDA Serviços Elétricos | Instalações e Manutenção Elétrica no RJ</title>
-<meta name="description" content="A JDA Serviços Elétricos oferece instalações, manutenção elétrica, iluminação, montagem de quadros e carregadores automotivos. Atendimento em todo o Rio de Janeiro.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="style.css"></head><body>
-<header class="site-header"><div class="container-jda header-inner">
-<a href="#inicio" aria-label="JDA Serviços Elétricos — início" class="close-menu"><img src="images/logo-jda.png" alt="JDA Serviços Elétricos" width="657" height="261" class="logo-image"></a>
-<nav class="desktop-nav" aria-label="Navegação principal"><span id="navD" style="display:contents"></span><a class="btn btn-hero header-cta wa" href="#">SOLICITAR ORÇAMENTO<i data-lucide="arrow-up-right"></i></a></nav>
-<button class="btn-icon mobile-toggle" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-navigation" style="align-items:center;justify-content:center"><i data-lucide="menu"></i></button>
-</div><nav id="mobile-navigation" class="mobile-nav" aria-label="Navegação móvel" hidden><span id="navM" style="display:contents"></span><a class="btn btn-hero wa" href="#">SOLICITAR ORÇAMENTO<i data-lucide="arrow-up-right"></i></a></nav></header>
-<main>
-<section id="inicio" class="hero"><img src="https://jdaservicoseletricos.lovable.app/__l5e/assets-v1/538cdd65-8ab5-4800-8a20-61fd883eaba4/jda-profissional-jda.jpg" alt="Profissional da JDA conferindo um quadro elétrico" width="1200" height="1600" class="hero-photo" fetchpriority="high">
-<div class="container-jda hero-inner"><p class="eyebrow">JDA SERVIÇOS ELÉTRICOS · RIO DE JANEIRO</p>
-<h1>Instalações elétricas<br>com qualidade,<br><span>segurança</span> e confiança.</h1>
-<p class="hero-description">Soluções elétricas para residências, condomínios e empresas. Atendimento profissional em todo o estado do Rio de Janeiro.</p>
-<div class="hero-actions"><a class="btn btn-hero wa" href="#"><i data-lucide="message-circle"></i>Solicitar orçamento pelo WhatsApp<i data-lucide="arrow-up-right"></i></a><a class="btn btn-outline" href="#servicos">Conhecer nossos serviços<i data-lucide="arrow-right"></i></a></div>
-<p class="hero-bottom"><i data-lucide="shield-check" style="width:14px;height:14px"></i>Cuidado em cada detalhe. Segurança em cada conexão.</p></div></section>
-<div class="trust-band"><div class="container-jda trust-grid">
-<div class="trust-item"><i data-lucide="badge-check"></i><div><strong>Profissionais qualificados</strong><p>Conhecimento técnico e responsabilidade</p></div></div>
-<div class="trust-item"><i data-lucide="shield-check"></i><div><strong>Garantia dos serviços</strong><p>Qualidade que faz a diferença</p></div></div>
-<div class="trust-item"><i data-lucide="map-pin"></i><div><strong>Atendimento em todo o RJ</strong><p>Mais perto de você e do seu projeto</p></div></div></div></div>
-<section id="servicos" class="section"><div class="container-jda"><div class="section-heading"><div><p class="eyebrow">NOSSOS SERVIÇOS</p><h2>Soluções elétricas para<br>cada necessidade.</h2></div><p class="section-description">Da instalação à manutenção, oferecemos soluções para diferentes demandas elétricas.</p></div>
-<div class="service-grid" id="services"><article class="service-card service-cta" id="svcCta"><i data-lucide="message-circle" class="service-icon"></i><h3>O que você precisa,<br>a JDA resolve.</h3><p>Conte sua necessidade e encontre a solução adequada.</p><a class="btn btn-outline wa" href="#">Fale com a JDA<i data-lucide="arrow-up-right"></i></a></article></div></div></section>
-<section id="sobre" class="section about-section"><div class="container-jda about-grid"><img src="https://jdaservicoseletricos.lovable.app/__l5e/assets-v1/1e2afd69-d05a-4384-94c3-08a7a522a62b/jda-manutencao-quadro.jpg" alt="Profissional da JDA trabalhando em um quadro elétrico" loading="lazy" width="1200" height="1600" class="about-photo">
-<div class="about-copy"><p class="eyebrow">SOBRE A JDA</p><h2>Compromisso técnico<br>em cada instalação.</h2><p>A JDA Serviços Elétricos nasceu com o propósito de oferecer soluções elétricas com qualidade, responsabilidade e segurança.</p><p>Contamos com profissionais certificados e qualificados para atender diferentes necessidades, desde pequenos reparos até instalações de maior complexidade.</p><p>Nosso compromisso é compreender cada projeto, apresentar soluções adequadas e executar cada serviço com atenção aos detalhes e às boas práticas de segurança.</p><div class="about-signature"><i data-lucide="shield-check" style="width:25px;height:25px"></i><span>Segurança não é um detalhe.<br><strong>É a base do nosso trabalho.</strong></span></div></div></div></section>
-<section id="diferenciais" class="section"><div class="container-jda"><div class="section-heading"><div><p class="eyebrow">A ESCOLHA CERTA PARA SEU PROJETO</p><h2>Por que escolher a JDA?</h2></div><p class="section-description">Mais do que executar um serviço, cuidamos da segurança e do funcionamento da sua instalação.</p></div><div class="difference-grid" id="diffs"></div></div></section>
-<section id="galeria" class="section gallery-section"><div class="container-jda"><div class="section-heading"><div><p class="eyebrow">INSTALAÇÕES E SOLUÇÕES</p><h2>Conheça alguns dos<br>nossos trabalhos.</h2></div><p class="section-description">Conheça os tipos de soluções que oferecemos.</p></div><div class="gallery-grid" id="gallery"></div></div></section>
-<section id="atendimento" class="section"><div class="container-jda coverage-grid"><div class="coverage-copy"><p class="eyebrow">ONDE ATENDEMOS</p><h2>Atendimento em todo o<br>estado do Rio de Janeiro.</h2><p>Atendemos residências, condomínios, comércios e empresas em diferentes regiões do estado do Rio de Janeiro.</p><p>Entre em contato e consulte a disponibilidade para sua localidade.</p>
-<div class="audiences"><span><i data-lucide="house"></i>Residências</span><span><i data-lucide="building-2"></i>Condomínios</span><span><i data-lucide="store"></i>Comércios</span><span><i data-lucide="building-2"></i>Empresas</span></div><a class="btn btn-hero wa mt-7" href="#">Consultar atendimento<i data-lucide="arrow-up-right"></i></a></div>
-<div class="coverage-visual"><i data-lucide="map-pin"></i><strong>Rio de Janeiro</strong><span>Qualidade e segurança em todo o estado.</span><span class="inline-check"><i data-lucide="check" style="width:14px;height:14px"></i>Atendimento para você e sua empresa</span></div></div></section>
-<section id="faq" class="section faq-section"><div class="container-jda faq-grid"><div><p class="eyebrow">PERGUNTAS FREQUENTES</p><h2>Suas dúvidas,<br>respondidas.</h2><p class="section-description">Precisa de mais informações?<br>Converse com a nossa equipe pelo WhatsApp.</p><a class="btn btn-hero wa mt-7" href="#">Falar com a JDA<i data-lucide="arrow-up-right"></i></a></div><div id="faqs"></div></div></section>
-<section id="contato" class="final-cta"><div class="container-jda final-inner"><div><h2>Precisa de um serviço elétrico?</h2><p>Conte com a JDA para encontrar a solução adequada para sua necessidade. Entre em contato e solicite seu orçamento.</p></div><a class="btn btn-outline wa" href="#"><i data-lucide="message-circle"></i>SOLICITAR ORÇAMENTO PELO WHATSAPP<i data-lucide="arrow-up-right"></i></a></div></section>
-</main>
-<footer><div class="container-jda"><div class="footer-grid"><div class="footer-brand"><a href="#inicio" aria-label="JDA — início"><img src="images/logo-jda.png" alt="JDA Serviços Elétricos" width="657" height="261" class="logo-image"></a><p>Soluções elétricas com qualidade, responsabilidade e segurança para você e sua empresa.</p></div>
-<div><h3>Navegação</h3><div class="footer-links" id="navF"></div></div>
-<div><h3>Fale com a JDA</h3><div class="footer-links"><a class="wa" href="#" ><i data-lucide="message-circle"></i>(21) 96902-4079</a><a href="https://www.instagram.com/jdaservicoseletricos/" target="_blank" rel="noopener noreferrer"><i data-lucide="instagram"></i>@jdaservicoseletricos</a></div></div>
-<div><h3>Atendimento</h3><div class="footer-links"><p><i data-lucide="map-pin"></i>Estado do Rio de Janeiro</p><p><i data-lucide="clock"></i>Segunda a sexta, das 08h às 18h</p></div></div></div>
-<div class="footer-bottom"><p>© <span id="year"></span> JDA Serviços Elétricos. Todos os direitos reservados.</p><p>CNPJ: 66.939.880/0001-74</p></div></div></footer>
-<a class="floating-whatsapp wa" href="#" aria-label="Fale com a JDA pelo WhatsApp" title="Fale com a JDA pelo WhatsApp"><i data-lucide="message-circle"></i></a>
-<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle"><div class="modal-box"><h2 id="mTitle"></h2><button class="modal-close" id="mClose" aria-label="Fechar"><i data-lucide="x"></i></button><img id="mImg" class="lightbox-image" alt="">
-<div class="modal-nav" id="mNav"><button class="btn-icon" id="mPrev" aria-label="Foto anterior" title="Foto anterior"><i data-lucide="chevron-left"></i></button><span id="mCount" aria-live="polite"></span><button class="btn-icon" id="mNext" aria-label="Próxima foto" title="Próxima foto"><i data-lucide="chevron-right"></i></button></div></div></div>
-<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
-<script src="app.js" defer></script></body></html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>JDA Serviços Elétricos | Instalações e Manutenção Elétrica no RJ</title>
+
+    <meta
+        name="description"
+        content="A JDA Serviços Elétricos oferece instalações, manutenção elétrica, iluminação, montagem de quadros e carregadores automotivos. Atendimento em todo o Rio de Janeiro."
+    >
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="fonts.css">
+
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    >
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER / NAVEGAÇÃO ================= -->
+
+    <header class="site-header">
+
+        <div class="container-jda header-inner">
+
+            <a
+                href="#inicio"
+                aria-label="JDA Serviços Elétricos — início"
+                class="close-menu"
+            >
+                <img
+                    src="images/logo-jda.png"
+                    alt="JDA Serviços Elétricos"
+                    width="657"
+                    height="261"
+                    class="logo-image"
+                >
+            </a>
+
+            <nav class="desktop-nav" aria-label="Navegação principal">
+
+                <span id="navD" style="display:contents"></span>
+
+                <a class="btn btn-hero header-cta wa" href="#">
+                    SOLICITAR ORÇAMENTO
+                    <i data-lucide="arrow-up-right"></i>
+                </a>
+
+            </nav>
+
+            <button
+                class="btn-icon mobile-toggle"
+                id="menuBtn"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="mobile-navigation"
+                style="align-items:center;justify-content:center"
+            >
+                <i data-lucide="menu"></i>
+            </button>
+
+        </div>
+
+        <!-- Menu mobile -->
+
+        <nav
+            id="mobile-navigation"
+            class="mobile-nav"
+            aria-label="Navegação móvel"
+            hidden
+        >
+
+            <span id="navM" style="display:contents"></span>
+
+            <a class="btn btn-hero wa" href="#">
+                SOLICITAR ORÇAMENTO
+                <i data-lucide="arrow-up-right"></i>
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= CONTEÚDO PRINCIPAL ================= -->
+
+    <main>
+
+        <!-- HERO / INÍCIO -->
+
+        <section id="inicio" class="hero">
+
+            <img
+                src="https://jdaservicoseletricos.lovable.app/__l5e/assets-v1/538cdd65-8ab5-4800-8a20-61fd883eaba4/jda-profissional-jda.jpg"
+                alt="Profissional da JDA conferindo um quadro elétrico"
+                width="1200"
+                height="1600"
+                class="hero-photo"
+                fetchpriority="high"
+            >
+
+            <div class="container-jda hero-inner">
+
+                <p class="eyebrow">
+                    JDA SERVIÇOS ELÉTRICOS · RIO DE JANEIRO
+                </p>
+
+                <h1>
+                    Instalações elétricas<br>
+                    com qualidade,<br>
+                    <span>segurança</span> e confiança.
+                </h1>
+
+                <p class="hero-description">
+                    Soluções elétricas para residências, condomínios e empresas.
+                    Atendimento profissional em todo o estado do Rio de Janeiro.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a class="btn btn-hero wa" href="#">
+                        <i data-lucide="message-circle"></i>
+                        Solicitar orçamento pelo WhatsApp
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+
+                    <a class="btn btn-outline" href="#servicos">
+                        Conhecer nossos serviços
+                        <i data-lucide="arrow-right"></i>
+                    </a>
+
+                </div>
+
+                <p class="hero-bottom">
+                    <i
+                        data-lucide="shield-check"
+                        style="width:14px;height:14px"
+                    ></i>
+                    Cuidado em cada detalhe. Segurança em cada conexão.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- FAIXA DE CONFIANÇA -->
+
+        <div class="trust-band">
+
+            <div class="container-jda trust-grid">
+
+                <div class="trust-item">
+
+                    <i data-lucide="badge-check"></i>
+
+                    <div>
+                        <strong>Profissionais qualificados</strong>
+                        <p>Conhecimento técnico e responsabilidade</p>
+                    </div>
+
+                </div>
+
+                <div class="trust-item">
+
+                    <i data-lucide="shield-check"></i>
+
+                    <div>
+                        <strong>Garantia dos serviços</strong>
+                        <p>Qualidade que faz a diferença</p>
+                    </div>
+
+                </div>
+
+                <div class="trust-item">
+
+                    <i data-lucide="map-pin"></i>
+
+                    <div>
+                        <strong>Atendimento em todo o RJ</strong>
+                        <p>Mais perto de você e do seu projeto</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= SERVIÇOS ================= -->
+
+        <section id="servicos" class="section">
+
+            <div class="container-jda">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <p class="eyebrow">NOSSOS SERVIÇOS</p>
+
+                        <h2>
+                            Soluções elétricas para<br>
+                            cada necessidade.
+                        </h2>
+
+                    </div>
+
+                    <p class="section-description">
+                        Da instalação à manutenção, oferecemos soluções
+                        para diferentes demandas elétricas.
+                    </p>
+
+                </div>
+
+                <div class="service-grid" id="services">
+
+                    <article
+                        class="service-card service-cta"
+                        id="svcCta"
+                    >
+
+                        <i
+                            data-lucide="message-circle"
+                            class="service-icon"
+                        ></i>
+
+                        <h3>
+                            O que você precisa,<br>
+                            a JDA resolve.
+                        </h3>
+
+                        <p>
+                            Conte sua necessidade e encontre a solução adequada.
+                        </p>
+
+                        <a class="btn btn-outline wa" href="#">
+                            Fale com a JDA
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SOBRE A JDA ================= -->
+
+        <section id="sobre" class="section about-section">
+
+            <div class="container-jda about-grid">
+
+                <img
+                    src="https://jdaservicoseletricos.lovable.app/__l5e/assets-v1/1e2afd69-d05a-4384-94c3-08a7a522a62b/jda-manutencao-quadro.jpg"
+                    alt="Profissional da JDA trabalhando em um quadro elétrico"
+                    loading="lazy"
+                    width="1200"
+                    height="1600"
+                    class="about-photo"
+                >
+
+                <div class="about-copy">
+
+                    <p class="eyebrow">SOBRE A JDA</p>
+
+                    <h2>
+                        Compromisso técnico<br>
+                        em cada instalação.
+                    </h2>
+
+                    <p>
+                        A JDA Serviços Elétricos nasceu com o propósito
+                        de oferecer soluções elétricas com qualidade,
+                        responsabilidade e segurança.
+                    </p>
+
+                    <p>
+                        Contamos com profissionais certificados e qualificados
+                        para atender diferentes necessidades, desde pequenos
+                        reparos até instalações de maior complexidade.
+                    </p>
+
+                    <p>
+                        Nosso compromisso é compreender cada projeto,
+                        apresentar soluções adequadas e executar cada serviço
+                        com atenção aos detalhes e às boas práticas de segurança.
+                    </p>
+
+                    <div class="about-signature">
+
+                        <i
+                            data-lucide="shield-check"
+                            style="width:25px;height:25px"
+                        ></i>
+
+                        <span>
+                            Segurança não é um detalhe.<br>
+                            <strong>É a base do nosso trabalho.</strong>
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= DIFERENCIAIS ================= -->
+
+        <section id="diferenciais" class="section">
+
+            <div class="container-jda">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            A ESCOLHA CERTA PARA SEU PROJETO
+                        </p>
+
+                        <h2>Por que escolher a JDA?</h2>
+
+                    </div>
+
+                    <p class="section-description">
+                        Mais do que executar um serviço, cuidamos da segurança
+                        e do funcionamento da sua instalação.
+                    </p>
+
+                </div>
+
+                <div class="difference-grid" id="diffs"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= GALERIA ================= -->
+
+        <section id="galeria" class="section gallery-section">
+
+            <div class="container-jda">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            INSTALAÇÕES E SOLUÇÕES
+                        </p>
+
+                        <h2>
+                            Conheça alguns dos<br>
+                            nossos trabalhos.
+                        </h2>
+
+                    </div>
+
+                    <p class="section-description">
+                        Conheça os tipos de soluções que oferecemos.
+                    </p>
+
+                </div>
+
+                <div class="gallery-grid" id="gallery"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ÁREA DE ATENDIMENTO ================= -->
+
+        <section id="atendimento" class="section">
+
+            <div class="container-jda coverage-grid">
+
+                <div class="coverage-copy">
+
+                    <p class="eyebrow">ONDE ATENDEMOS</p>
+
+                    <h2>
+                        Atendimento em todo o<br>
+                        estado do Rio de Janeiro.
+                    </h2>
+
+                    <p>
+                        Atendemos residências, condomínios, comércios e empresas
+                        em diferentes regiões do estado do Rio de Janeiro.
+                    </p>
+
+                    <p>
+                        Entre em contato e consulte a disponibilidade
+                        para sua localidade.
+                    </p>
+
+                    <div class="audiences">
+
+                        <span>
+                            <i data-lucide="house"></i>
+                            Residências
+                        </span>
+
+                        <span>
+                            <i data-lucide="building-2"></i>
+                            Condomínios
+                        </span>
+
+                        <span>
+                            <i data-lucide="store"></i>
+                            Comércios
+                        </span>
+
+                        <span>
+                            <i data-lucide="building-2"></i>
+                            Empresas
+                        </span>
+
+                    </div>
+
+                    <a class="btn btn-hero wa mt-7" href="#">
+                        Consultar atendimento
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+
+                </div>
+
+                <div class="coverage-visual">
+
+                    <i data-lucide="map-pin"></i>
+
+                    <strong>Rio de Janeiro</strong>
+
+                    <span>
+                        Qualidade e segurança em todo o estado.
+                    </span>
+
+                    <span class="inline-check">
+
+                        <i
+                            data-lucide="check"
+                            style="width:14px;height:14px"
+                        ></i>
+
+                        Atendimento para você e sua empresa
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PERGUNTAS FREQUENTES ================= -->
+
+        <section id="faq" class="section faq-section">
+
+            <div class="container-jda faq-grid">
+
+                <div>
+
+                    <p class="eyebrow">PERGUNTAS FREQUENTES</p>
+
+                    <h2>
+                        Suas dúvidas,<br>
+                        respondidas.
+                    </h2>
+
+                    <p class="section-description">
+                        Precisa de mais informações?<br>
+                        Converse com a nossa equipe pelo WhatsApp.
+                    </p>
+
+                    <a class="btn btn-hero wa mt-7" href="#">
+                        Falar com a JDA
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+
+                </div>
+
+                <div id="faqs"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA FINAL ================= -->
+
+        <section id="contato" class="final-cta">
+
+            <div class="container-jda final-inner">
+
+                <div>
+
+                    <h2>Precisa de um serviço elétrico?</h2>
+
+                    <p>
+                        Conte com a JDA para encontrar a solução adequada
+                        para sua necessidade. Entre em contato e solicite
+                        seu orçamento.
+                    </p>
+
+                </div>
+
+                <a class="btn btn-outline wa" href="#">
+
+                    <i data-lucide="message-circle"></i>
+
+                    SOLICITAR ORÇAMENTO PELO WHATSAPP
+
+                    <i data-lucide="arrow-up-right"></i>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= RODAPÉ ================= -->
+
+    <footer>
+
+        <div class="container-jda">
+
+            <div class="footer-grid">
+
+                <!-- Logo e descrição -->
+
+                <div class="footer-brand">
+
+                    <a href="#inicio" aria-label="JDA — início">
+
+                        <img
+                            src="images/logo-jda.png"
+                            alt="JDA Serviços Elétricos"
+                            width="657"
+                            height="261"
+                            class="logo-image"
+                        >
+
+                    </a>
+
+                    <p>
+                        Soluções elétricas com qualidade, responsabilidade
+                        e segurança para você e sua empresa.
+                    </p>
+
+                </div>
+
+
+                <!-- Navegação -->
+
+                <div>
+
+                    <h3>Navegação</h3>
+
+                    <div class="footer-links" id="navF"></div>
+
+                </div>
+
+
+                <!-- Contato -->
+
+                <div>
+
+                    <h3>Fale com a JDA</h3>
+
+                    <div class="footer-links">
+
+                        <a class="wa" href="#">
+
+                            <i data-lucide="message-circle"></i>
+                            (21) 96902-4079
+
+                        </a>
+
+                        <a
+                            href="https://www.instagram.com/jdaservicoseletricos/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+
+                            <i data-lucide="instagram"></i>
+                            @jdaservicoseletricos
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Horário e atendimento -->
+
+                <div>
+
+                    <h3>Atendimento</h3>
+
+                    <div class="footer-links">
+
+                        <p>
+                            <i data-lucide="map-pin"></i>
+                            Estado do Rio de Janeiro
+                        </p>
+
+                        <p>
+                            <i data-lucide="clock"></i>
+                            Segunda a sexta, das 08h às 18h
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Informações finais -->
+
+            <div class="footer-bottom">
+
+                <p>
+                    © <span id="year"></span>
+                    JDA Serviços Elétricos. Todos os direitos reservados.
+                </p>
+
+                <p>
+                    CNPJ: 66.939.880/0001-74
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= BOTÃO FLUTUANTE WHATSAPP ================= -->
+
+    <a
+        class="floating-whatsapp wa"
+        href="#"
+        aria-label="Fale com a JDA pelo WhatsApp"
+        title="Fale com a JDA pelo WhatsApp"
+    >
+        <i data-lucide="message-circle"></i>
+    </a>
+
+
+    <!-- ================= MODAL DA GALERIA ================= -->
+
+    <div
+        class="modal"
+        id="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="mTitle"
+    >
+
+        <div class="modal-box">
+
+            <h2 id="mTitle"></h2>
+
+            <button
+                class="modal-close"
+                id="mClose"
+                aria-label="Fechar"
+            >
+                <i data-lucide="x"></i>
+            </button>
+
+            <img
+                id="mImg"
+                class="lightbox-image"
+                alt=""
+            >
+
+            <div class="modal-nav" id="mNav">
+
+                <button
+                    class="btn-icon"
+                    id="mPrev"
+                    aria-label="Foto anterior"
+                    title="Foto anterior"
+                >
+                    <i data-lucide="chevron-left"></i>
+                </button>
+
+                <span id="mCount" aria-live="polite"></span>
+
+                <button
+                    class="btn-icon"
+                    id="mNext"
+                    aria-label="Próxima foto"
+                    title="Próxima foto"
+                >
+                    <i data-lucide="chevron-right"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= SCRIPTS ================= -->
+
+    <!-- Biblioteca de ícones Lucide -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+    <!-- JavaScript principal -->
+    <script src="app.js" defer></script>
+
+</body>
+</html>
