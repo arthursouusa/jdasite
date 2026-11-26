@@ -103,8 +103,7 @@
         <section id="inicio" class="hero">
 
             <img
-                src="https://jdaservicoseletricos.lovable.app/__l5e/assets-v1/538cdd65-8ab5-4800-8a20-61fd883eaba4/jda-profissional-jda.jpg"
-                alt="Profissional da JDA conferindo um quadro elétrico"
+                src="images/img3.jpeg"
                 width="1200"
                 height="1600"
                 class="hero-photo"
@@ -383,7 +382,43 @@
 
                 </div>
 
-                <div class="gallery-grid" id="gallery"></div>
+                <div class="gallery-carousel" id="gallery" aria-label="Galeria de trabalhos">
+                    <div class="gallery-viewport" id="galleryViewport">
+                        <div class="gallery-track" id="galleryTrack"></div>
+
+                        <button
+                            class="gallery-arrow gallery-arrow-prev"
+                            id="galleryPrev"
+                            type="button"
+                            aria-label="Trabalho anterior"
+                        >
+                            <i data-lucide="chevron-left"></i>
+                        </button>
+
+                        <button
+                            class="gallery-arrow gallery-arrow-next"
+                            id="galleryNext"
+                            type="button"
+                            aria-label="Próximo trabalho"
+                        >
+                            <i data-lucide="chevron-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="gallery-bottom">
+                        <div
+                            class="gallery-dots"
+                            id="galleryDots"
+                            aria-label="Selecionar trabalho"
+                        ></div>
+
+                        <span
+                            class="gallery-counter"
+                            id="galleryCounter"
+                            aria-live="polite"
+                        ></span>
+                    </div>
+                </div>
 
             </div>
 
