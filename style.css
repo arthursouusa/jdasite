@@ -679,3 +679,25 @@ footer { background: oklch(0.155 0.006 264); }
         transition: none !important;
     }
 }
+
+
+/* =========================================================
+   Ajuste do slider no desktop
+   Preserva a foto inteira sem alterar o layout mobile.
+   ========================================================= */
+@media (min-width: 768px) {
+    .gallery-carousel .gallery-slide .gallery-button {
+        height: clamp(480px, 55vw, 620px);
+        padding: 24px 78px;
+    }
+
+    .gallery-carousel .gallery-slide .gallery-button img {
+        width: auto !important;
+        height: auto !important;
+        max-width: min(100%, 520px);
+        max-height: min(70vh, 570px);
+        aspect-ratio: auto !important;
+        object-fit: contain !important;
+        object-position: center;
+    }
+}
