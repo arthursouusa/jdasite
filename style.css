@@ -701,3 +701,65 @@ footer { background: oklch(0.155 0.006 264); }
         object-position: center;
     }
 }
+
+
+/* Botão flutuante do WhatsApp */
+.floating-whatsapp {
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+
+    animation: whatsapp-pulse-strong 1.8s ease-in-out infinite;
+}
+
+/* Logo oficial */
+.floating-whatsapp svg {
+    width: 34px;
+    height: 34px;
+    fill: currentColor;
+}
+
+/* Pulsação mais evidente */
+@keyframes whatsapp-pulse-strong {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow:
+            0 0 0 0 rgba(37, 211, 102, 0.55),
+            0 8px 24px rgba(0, 0, 0, 0.35);
+    }
+
+    50% {
+        transform: scale(1.08);
+        box-shadow:
+            0 0 0 14px rgba(37, 211, 102, 0),
+            0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+}
+
+/* Interação ao passar o mouse */
+.floating-whatsapp:hover {
+    animation-play-state: paused;
+    transform: translateY(-4px) scale(1.06);
+}
+
+/* Ajuste para celular */
+@media (max-width: 767px) {
+    .floating-whatsapp {
+        width: 54px;
+        height: 54px;
+    }
+
+    .floating-whatsapp svg {
+        width: 30px;
+        height: 30px;
+    }
+}
